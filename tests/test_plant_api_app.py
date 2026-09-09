@@ -65,10 +65,30 @@ class PlantAPIContractTests(unittest.TestCase):
         )
         file_items = schema["paths"]["/plants/{plant_id}/photos"]["post"][
             "requestBody"
-        ]["content"]["application/json"]["schema"]["allOf"][1]["properties"][
+        ]["content"]["application/json"]["schema"]["properties"][
             "openaiFileIdRefs"
         ]["items"]
         self.assertEqual(file_items, {"type": "string"})
+
+    def test_custom_action_schema_uses_validator_compatible_inline_objects(self):
+        schema = yaml.safe_load(
+            Path("plant_api/openapi-action.yaml").read_text(encoding="utf-8")
+        )
+        for path, methods in schema["paths"].items():
+            for method, operation in methods.items():
+                with self.subTest(path=path, method=method):
+                    self.assertLessEqual(len(operation.get("description", "")), 300)
+                    for parameter in operation.get("parameters", []):
+                        self.assertIsInstance(parameter.get("name"), str)
+                    request_body = operation.get("requestBody")
+                    if request_body:
+                        request_schema = request_body["content"]["application/json"]["schema"]
+                        self.assertEqual(request_schema.get("type"), "object")
+                        self.assertIsInstance(request_schema.get("properties"), dict)
+                    for response in operation["responses"].values():
+                        response_schema = response["content"]["application/json"]["schema"]
+                        self.assertEqual(response_schema.get("type"), "object")
+                        self.assertIsInstance(response_schema.get("properties"), dict)
 
     def test_served_action_schema_uses_configured_public_url(self):
         settings = Settings(
