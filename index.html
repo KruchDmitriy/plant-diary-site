@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Дневник растений</title><meta name="theme-color" content="#f2f0e9">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header class="hero"><div class="wrap">
+  <div class="eyebrow">ЛИЧНАЯ КОЛЛЕКЦИЯ</div><h1>Дневник растений</h1>
+  <p class="lead">Карточки растений, фотографии и история изменений — в одном спокойном каталоге.</p>
+  <div id="stats" class="stats"></div>
+</div></header>
+<main class="wrap">
+  <section class="toolbar" aria-label="Фильтры">
+    <label class="search"><span>Поиск</span><input id="q" type="search" placeholder="название или № растения"></label>
+    <label><span>Группа</span><select id="group"><option value="">Все группы</option></select></label>
+    <label><span>Статус</span><select id="status"><option value="">Все статусы</option></select></label>
+    <label><span>Сортировка</span><select id="sort"><option value="id">По номеру</option><option value="name">По названию</option><option value="photos">По числу фото</option></select></label>
+  </section>
+  <div id="result-count" class="result-count"></div>
+  <section id="cards" class="grid" aria-live="polite"></section>
+</main>
+<dialog id="detail"><button class="close" aria-label="Закрыть">×</button><div id="detail-body"></div></dialog>
+
+<dialog id="lightbox" aria-label="Просмотр фотографии">
+  <button class="lightbox-close" aria-label="Закрыть фотографию">×</button>
+  <button class="lightbox-nav lightbox-prev" aria-label="Предыдущая фотография">‹</button>
+  <figure class="lightbox-stage">
+    <img id="lightbox-img" alt="">
+    <figcaption id="lightbox-caption"></figcaption>
+  </figure>
+  <button class="lightbox-nav lightbox-next" aria-label="Следующая фотография">›</button>
+</dialog>
+
+<footer class="wrap footer">Данные: Airtable · фотографии: Yandex Object Storage · статический сайт без серверной базы</footer>
+<script src="assets/app.js" defer></script>
+</body></html>

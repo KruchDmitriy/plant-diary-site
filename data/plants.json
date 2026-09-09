@@ -1,0 +1,2092 @@
+[
+  {
+    "id": 1,
+    "name": "Anthurium Darkest Panama (Eddy) × BVEP Scott × RVDP",
+    "status": "Активно",
+    "group": "Ароидные",
+    "photo_count": 8,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/undated/IMG_9358.webp",
+    "cover_key": "web/undated/IMG_9358.webp",
+    "event_count": 0
+  },
+  {
+    "id": 2,
+    "name": "Anthurium Tezula Red Crystallinum × (SKG Silver × Red Crystallinum)",
+    "status": "Активно",
+    "group": "Ароидные",
+    "photo_count": 5,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/undated/IMG_9363.webp",
+    "cover_key": "web/undated/IMG_9363.webp",
+    "event_count": 0
+  },
+  {
+    "id": 3,
+    "name": "Alocasia ‘Bambino Pink Variegata’",
+    "status": "Активно",
+    "group": "Ароидные",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/undated/IMG_9367.webp",
+    "cover_key": "web/undated/IMG_9367.webp",
+    "event_count": 0
+  },
+  {
+    "id": 4,
+    "name": "Ficus triangularis ‘White Margin’",
+    "status": "Активно",
+    "group": "Фикусы",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/undated/IMG_9412.webp",
+    "cover_key": "web/undated/IMG_9412.webp",
+    "event_count": 0
+  },
+  {
+    "id": 5,
+    "name": "Begonia ‘Autumn Amber’",
+    "status": "Активно",
+    "group": "Бегонии",
+    "photo_count": 10,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/undated/IMG_9401.webp",
+    "cover_key": "web/undated/IMG_9401.webp",
+    "event_count": 0
+  },
+  {
+    "id": 6,
+    "name": "Begonia ‘Black Mamba’",
+    "status": "Активно",
+    "group": "Бегонии",
+    "photo_count": 5,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/undated/IMG_9390.webp",
+    "cover_key": "web/undated/IMG_9390.webp",
+    "event_count": 0
+  },
+  {
+    "id": 7,
+    "name": "Begonia ‘DS Luxury Red’ — листовой черенок с деткой",
+    "status": "Укоренение",
+    "group": "Бегонии",
+    "photo_count": 3,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/undated/IMG_9406.webp",
+    "cover_key": "web/undated/IMG_9406.webp",
+    "event_count": 0
+  },
+  {
+    "id": 8,
+    "name": "Caladium — красный/«scarlet», сорт неизвестен",
+    "status": "Наблюдение",
+    "group": "Ароидные",
+    "photo_count": 3,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/undated/IMG_9385.webp",
+    "cover_key": "web/undated/IMG_9385.webp",
+    "event_count": 0
+  },
+  {
+    "id": 9,
+    "name": "Caladium — зелёно-розовый, сорт неизвестен",
+    "status": "Наблюдение",
+    "group": "Ароидные",
+    "photo_count": 3,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/undated/IMG_9379.webp",
+    "cover_key": "web/undated/IMG_9379.webp",
+    "event_count": 0
+  },
+  {
+    "id": 10,
+    "name": "Alocasia sp. ‘Bisma / Platinum?’",
+    "status": "Наблюдение",
+    "group": "Ароидные",
+    "photo_count": 3,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/undated/IMG_9382.webp",
+    "cover_key": "web/undated/IMG_9382.webp",
+    "event_count": 0
+  },
+  {
+    "id": 11,
+    "name": "Colocasia esculenta ‘Black Coral’",
+    "status": "Активно",
+    "group": "Ароидные",
+    "photo_count": 6,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-27/IMG_9515.webp",
+    "cover_key": "web/2026-08-27/IMG_9515.webp",
+    "event_count": 0
+  },
+  {
+    "id": 12,
+    "name": "Crassula ovata ‘Minor / Sunset?’ — крупный экземпляр",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 5,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-26/IMG_9433.webp",
+    "cover_key": "web/2026-08-26/IMG_9433.webp",
+    "event_count": 0
+  },
+  {
+    "id": 13,
+    "name": "Ficus microcarpa ‘Ginseng’ №1",
+    "status": "Активно",
+    "group": "Фикусы",
+    "photo_count": 6,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-26/IMG_9428.webp",
+    "cover_key": "web/2026-08-26/IMG_9428.webp",
+    "event_count": 0
+  },
+  {
+    "id": 14,
+    "name": "Ficus microcarpa ‘Ginseng’ №2",
+    "status": "Наблюдение",
+    "group": "Фикусы",
+    "photo_count": 8,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-26/IMG_9422.webp",
+    "cover_key": "web/2026-08-26/IMG_9422.webp",
+    "event_count": 0
+  },
+  {
+    "id": 15,
+    "name": "Kalanchoe sp. — лопастная форма",
+    "status": "Наблюдение",
+    "group": "Суккуленты",
+    "photo_count": 7,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-26/IMG_9448.webp",
+    "cover_key": "web/2026-08-26/IMG_9448.webp",
+    "event_count": 0
+  },
+  {
+    "id": 16,
+    "name": "Catalpa bignonioides",
+    "status": "Наблюдение",
+    "group": "Древесные",
+    "photo_count": 6,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-26/IMG_9454.webp",
+    "cover_key": "web/2026-08-26/IMG_9454.webp",
+    "event_count": 0
+  },
+  {
+    "id": 17,
+    "name": "Platycladus orientalis / туя восточная",
+    "status": "Наблюдение",
+    "group": "Древесные",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-26/IMG_9458.webp",
+    "cover_key": "web/2026-08-26/IMG_9458.webp",
+    "event_count": 0
+  },
+  {
+    "id": 18,
+    "name": "Роза Kordana / мини-роза",
+    "status": "Наблюдение",
+    "group": "Прочее",
+    "photo_count": 8,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-27/IMG_9517.webp",
+    "cover_key": "web/2026-08-27/IMG_9517.webp",
+    "event_count": 0
+  },
+  {
+    "id": 19,
+    "name": "Polyscias scutellaria ‘Fabian’",
+    "status": "Наблюдение",
+    "group": "Прочее",
+    "photo_count": 6,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-26/IMG_9464.webp",
+    "cover_key": "web/2026-08-26/IMG_9464.webp",
+    "event_count": 0
+  },
+  {
+    "id": 20,
+    "name": "Quercus suber / пробковый дуб",
+    "status": "Наблюдение",
+    "group": "Древесные",
+    "photo_count": 2,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-26/IMG_9482.webp",
+    "cover_key": "web/2026-08-26/IMG_9482.webp",
+    "event_count": 0
+  },
+  {
+    "id": 21,
+    "name": "Gardenia jasminoides",
+    "status": "Наблюдение",
+    "group": "Прочее",
+    "photo_count": 10,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-26/IMG_9480.webp",
+    "cover_key": "web/2026-08-26/IMG_9480.webp",
+    "event_count": 0
+  },
+  {
+    "id": 22,
+    "name": "Syngonium ‘Pixie’",
+    "status": "Активно",
+    "group": "Ароидные",
+    "photo_count": 6,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-26/IMG_9497.webp",
+    "cover_key": "web/2026-08-26/IMG_9497.webp",
+    "event_count": 0
+  },
+  {
+    "id": 23,
+    "name": "Anthurium ‘Chocolate’ — сфагнум + цеолит",
+    "status": "Активно",
+    "group": "Ароидные",
+    "photo_count": 9,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-26/IMG_9491.webp",
+    "cover_key": "web/2026-08-26/IMG_9491.webp",
+    "event_count": 0
+  },
+  {
+    "id": 24,
+    "name": "Alocasia ‘Dragon’s Breath’",
+    "status": "Активно",
+    "group": "Ароидные",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-26/IMG_9437.webp",
+    "cover_key": "web/2026-08-26/IMG_9437.webp",
+    "event_count": 0
+  },
+  {
+    "id": 25,
+    "name": "Каламондин / ×Citrofortunella microcarpa",
+    "status": "Активно",
+    "group": "Прочее",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-26/IMG_9376.webp",
+    "cover_key": "web/2026-08-26/IMG_9376.webp",
+    "event_count": 0
+  },
+  {
+    "id": 26,
+    "name": "Alocasia baginda ‘Dragon Scale’",
+    "status": "Активно",
+    "group": "Ароидные",
+    "photo_count": 7,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-26/IMG_9504.webp",
+    "cover_key": "web/2026-08-26/IMG_9504.webp",
+    "event_count": 0
+  },
+  {
+    "id": 27,
+    "name": "Saintpaulia ‘Black Tie Affair’",
+    "status": "Активно",
+    "group": "Фиалки",
+    "photo_count": 2,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-27/IMG_9408(1).webp",
+    "cover_key": "web/2026-08-27/IMG_9408(1).webp",
+    "event_count": 0
+  },
+  {
+    "id": 28,
+    "name": "Ficus neriifolia",
+    "status": "Наблюдение",
+    "group": "Фикусы",
+    "photo_count": 8,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-27/IMG_9540.webp",
+    "cover_key": "web/2026-08-27/IMG_9540.webp",
+    "event_count": 0
+  },
+  {
+    "id": 29,
+    "name": "Philodendron ‘Birkin’ — фитиль, Lechuza",
+    "status": "Наблюдение",
+    "group": "Ароидные",
+    "photo_count": 9,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-28/IMG_9568.webp",
+    "cover_key": "web/2026-08-28/IMG_9568.webp",
+    "event_count": 0
+  },
+  {
+    "id": 30,
+    "name": "Philodendron ‘Pink Princess Marble’ — фитиль, перлит",
+    "status": "Активно",
+    "group": "Ароидные",
+    "photo_count": 3,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-28/IMG_9557.webp",
+    "cover_key": "web/2026-08-28/IMG_9557.webp",
+    "event_count": 0
+  },
+  {
+    "id": 31,
+    "name": "Philodendron ‘Pink Congo’ — фитиль, Lechuza",
+    "status": "Активно",
+    "group": "Ароидные",
+    "photo_count": 7,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-28/IMG_9563.webp",
+    "cover_key": "web/2026-08-28/IMG_9563.webp",
+    "event_count": 0
+  },
+  {
+    "id": 32,
+    "name": "Ficus microcarpa ‘Green Island’",
+    "status": "Активно",
+    "group": "Фикусы",
+    "photo_count": 6,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-28/IMG_9584.webp",
+    "cover_key": "web/2026-08-28/IMG_9584.webp",
+    "event_count": 0
+  },
+  {
+    "id": 33,
+    "name": "Ficus benjamina ‘Curly’",
+    "status": "Наблюдение",
+    "group": "Фикусы",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-28/IMG_9578.webp",
+    "cover_key": "web/2026-08-28/IMG_9578.webp",
+    "event_count": 0
+  },
+  {
+    "id": 34,
+    "name": "Ficus benjamina ‘Irene’",
+    "status": "Наблюдение",
+    "group": "Фикусы",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-28/IMG_9574.webp",
+    "cover_key": "web/2026-08-28/IMG_9574.webp",
+    "event_count": 0
+  },
+  {
+    "id": 35,
+    "name": "Фиалка из поддона №1",
+    "status": "Реанимация",
+    "group": "Фиалки",
+    "photo_count": 19,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9643.webp",
+    "cover_key": "web/2026-08-29/IMG_9643.webp",
+    "event_count": 1
+  },
+  {
+    "id": 36,
+    "name": "Фиалка из поддона №2",
+    "status": "Наблюдение",
+    "group": "Фиалки",
+    "photo_count": 8,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9638.webp",
+    "cover_key": "web/2026-08-29/IMG_9638.webp",
+    "event_count": 0
+  },
+  {
+    "id": 37,
+    "name": "Фиалка из поддона №3",
+    "status": "Активно",
+    "group": "Фиалки",
+    "photo_count": 8,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9647.webp",
+    "cover_key": "web/2026-08-29/IMG_9647.webp",
+    "event_count": 0
+  },
+  {
+    "id": 38,
+    "name": "Фиалка из поддона №4",
+    "status": "Активно",
+    "group": "Фиалки",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9624.webp",
+    "cover_key": "web/2026-08-29/IMG_9624.webp",
+    "event_count": 0
+  },
+  {
+    "id": 39,
+    "name": "Фиалка из поддона №5",
+    "status": "Активно",
+    "group": "Фиалки",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9624.webp",
+    "cover_key": "web/2026-08-29/IMG_9624.webp",
+    "event_count": 0
+  },
+  {
+    "id": 40,
+    "name": "Фиалка из поддона №6",
+    "status": "Активно",
+    "group": "Фиалки",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9624.webp",
+    "cover_key": "web/2026-08-29/IMG_9624.webp",
+    "event_count": 0
+  },
+  {
+    "id": 41,
+    "name": "Фиалка из поддона №7",
+    "status": "Активно",
+    "group": "Фиалки",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9624.webp",
+    "cover_key": "web/2026-08-29/IMG_9624.webp",
+    "event_count": 0
+  },
+  {
+    "id": 42,
+    "name": "Фиалка из поддона №8",
+    "status": "Активно",
+    "group": "Фиалки",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9624.webp",
+    "cover_key": "web/2026-08-29/IMG_9624.webp",
+    "event_count": 0
+  },
+  {
+    "id": 43,
+    "name": "Фиалка из поддона №9",
+    "status": "Активно",
+    "group": "Фиалки",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9624.webp",
+    "cover_key": "web/2026-08-29/IMG_9624.webp",
+    "event_count": 0
+  },
+  {
+    "id": 44,
+    "name": "Фиалка из поддона №10",
+    "status": "Активно",
+    "group": "Фиалки",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9624.webp",
+    "cover_key": "web/2026-08-29/IMG_9624.webp",
+    "event_count": 0
+  },
+  {
+    "id": 45,
+    "name": "Фиалка из поддона №11",
+    "status": "Активно",
+    "group": "Фиалки",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9624.webp",
+    "cover_key": "web/2026-08-29/IMG_9624.webp",
+    "event_count": 0
+  },
+  {
+    "id": 46,
+    "name": "Фиалка из поддона №12",
+    "status": "Активно",
+    "group": "Фиалки",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9624.webp",
+    "cover_key": "web/2026-08-29/IMG_9624.webp",
+    "event_count": 0
+  },
+  {
+    "id": 47,
+    "name": "Фиалка из поддона №13",
+    "status": "Активно",
+    "group": "Фиалки",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9624.webp",
+    "cover_key": "web/2026-08-29/IMG_9624.webp",
+    "event_count": 0
+  },
+  {
+    "id": 48,
+    "name": "Фиалка из поддона №14",
+    "status": "Активно",
+    "group": "Фиалки",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9624.webp",
+    "cover_key": "web/2026-08-29/IMG_9624.webp",
+    "event_count": 0
+  },
+  {
+    "id": 49,
+    "name": "Фиалка из поддона №15",
+    "status": "Активно",
+    "group": "Фиалки",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9624.webp",
+    "cover_key": "web/2026-08-29/IMG_9624.webp",
+    "event_count": 0
+  },
+  {
+    "id": 50,
+    "name": "Фиалка из поддона №16",
+    "status": "Активно",
+    "group": "Фиалки",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9624.webp",
+    "cover_key": "web/2026-08-29/IMG_9624.webp",
+    "event_count": 0
+  },
+  {
+    "id": 51,
+    "name": "Фиалка из поддона №17",
+    "status": "Активно",
+    "group": "Фиалки",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9624.webp",
+    "cover_key": "web/2026-08-29/IMG_9624.webp",
+    "event_count": 0
+  },
+  {
+    "id": 52,
+    "name": "Platycerium superbum",
+    "status": "Активно",
+    "group": "Папоротники",
+    "photo_count": 5,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9657.webp",
+    "cover_key": "web/2026-08-29/IMG_9657.webp",
+    "event_count": 0
+  },
+  {
+    "id": 53,
+    "name": "Platycerium ‘Darwin’",
+    "status": "Активно",
+    "group": "Папоротники",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9651.webp",
+    "cover_key": "web/2026-08-29/IMG_9651.webp",
+    "event_count": 0
+  },
+  {
+    "id": 54,
+    "name": "Сенполия — эксперимент в банке",
+    "status": "Наблюдение",
+    "group": "Фиалки",
+    "photo_count": 3,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9612.webp",
+    "cover_key": "web/2026-08-29/IMG_9612.webp",
+    "event_count": 1
+  },
+  {
+    "id": 55,
+    "name": "Phalaenopsis ‘Little Gold 502’ / 小黄金",
+    "status": "Активно",
+    "group": "Орхидеи",
+    "photo_count": 9,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9660(1).webp",
+    "cover_key": "web/2026-08-29/IMG_9660(1).webp",
+    "event_count": 1
+  },
+  {
+    "id": 56,
+    "name": "Phlebodium aureum ‘Blue Star’",
+    "status": "Активно",
+    "group": "Папоротники",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9735.webp",
+    "cover_key": "web/2026-08-29/IMG_9735.webp",
+    "event_count": 1
+  },
+  {
+    "id": 57,
+    "name": "Peperomia columbiana №1",
+    "status": "Активно",
+    "group": "Прочее",
+    "photo_count": 3,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9608.webp",
+    "cover_key": "web/2026-08-29/IMG_9608.webp",
+    "event_count": 0
+  },
+  {
+    "id": 58,
+    "name": "Saintpaulia ‘ВаТ-Тёмная Госпожа’",
+    "status": "Наблюдение",
+    "group": "Фиалки",
+    "photo_count": 3,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9605.webp",
+    "cover_key": "web/2026-08-29/IMG_9605.webp",
+    "event_count": 1
+  },
+  {
+    "id": 59,
+    "name": "Сенполия пестролистная, сорт неизвестен",
+    "status": "Активно",
+    "group": "Фиалки",
+    "photo_count": 5,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9741.webp",
+    "cover_key": "web/2026-08-29/IMG_9741.webp",
+    "event_count": 0
+  },
+  {
+    "id": 60,
+    "name": "Saintpaulia ‘Вишнёвая метель’",
+    "status": "Наблюдение",
+    "group": "Фиалки",
+    "photo_count": 3,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9726.webp",
+    "cover_key": "web/2026-08-29/IMG_9726.webp",
+    "event_count": 1
+  },
+  {
+    "id": 61,
+    "name": "Saintpaulia ‘ЕК-Гладиатор?’",
+    "status": "Наблюдение",
+    "group": "Фиалки",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9695.webp",
+    "cover_key": "web/2026-08-29/IMG_9695.webp",
+    "event_count": 0
+  },
+  {
+    "id": 62,
+    "name": "Hedera helix",
+    "status": "Активно",
+    "group": "Плющи",
+    "photo_count": 3,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9675.webp",
+    "cover_key": "web/2026-08-29/IMG_9675.webp",
+    "event_count": 1
+  },
+  {
+    "id": 63,
+    "name": "Phalaenopsis ‘Taiwan Glamor 1972’",
+    "status": "Активно",
+    "group": "Орхидеи",
+    "photo_count": 7,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9682.webp",
+    "cover_key": "web/2026-08-29/IMG_9682.webp",
+    "event_count": 0
+  },
+  {
+    "id": 64,
+    "name": "Phalaenopsis — сфагнум+кора, детка у основания",
+    "status": "Активно",
+    "group": "Орхидеи",
+    "photo_count": 5,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9731.webp",
+    "cover_key": "web/2026-08-29/IMG_9731.webp",
+    "event_count": 0
+  },
+  {
+    "id": 65,
+    "name": "Phalaenopsis — тёмно-бордовые цветы",
+    "status": "Активно",
+    "group": "Орхидеи",
+    "photo_count": 7,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9669.webp",
+    "cover_key": "web/2026-08-29/IMG_9669.webp",
+    "event_count": 0
+  },
+  {
+    "id": 66,
+    "name": "Сенполия — сорт неизвестен, молодая",
+    "status": "Наблюдение",
+    "group": "Фиалки",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9723.webp",
+    "cover_key": "web/2026-08-29/IMG_9723.webp",
+    "event_count": 0
+  },
+  {
+    "id": 67,
+    "name": "Saintpaulia ‘Ness’ Orange Pekoe’",
+    "status": "Активно",
+    "group": "Фиалки",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9717.webp",
+    "cover_key": "web/2026-08-29/IMG_9717.webp",
+    "event_count": 1
+  },
+  {
+    "id": 68,
+    "name": "Saintpaulia ‘РС-Голубой шифон’",
+    "status": "Активно",
+    "group": "Фиалки",
+    "photo_count": 3,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9698.webp",
+    "cover_key": "web/2026-08-29/IMG_9698.webp",
+    "event_count": 0
+  },
+  {
+    "id": 69,
+    "name": "Peperomia columbiana №2",
+    "status": "Активно",
+    "group": "Прочее",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9749.webp",
+    "cover_key": "web/2026-08-29/IMG_9749.webp",
+    "event_count": 0
+  },
+  {
+    "id": 70,
+    "name": "Сенполия взрослая, сорт неизвестен, две точки роста",
+    "status": "Наблюдение",
+    "group": "Фиалки",
+    "photo_count": 6,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9756.webp",
+    "cover_key": "web/2026-08-29/IMG_9756.webp",
+    "event_count": 1
+  },
+  {
+    "id": 71,
+    "name": "Alocasia ‘Regal Shields’",
+    "status": "Активно",
+    "group": "Ароидные",
+    "photo_count": 3,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9760.webp",
+    "cover_key": "web/2026-08-29/IMG_9760.webp",
+    "event_count": 0
+  },
+  {
+    "id": 72,
+    "name": "Anthurium peltigerum",
+    "status": "Наблюдение",
+    "group": "Ароидные",
+    "photo_count": 6,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9766.webp",
+    "cover_key": "web/2026-08-29/IMG_9766.webp",
+    "event_count": 0
+  },
+  {
+    "id": 73,
+    "name": "Rhipsalidopsis / Hatiora",
+    "status": "Активно",
+    "group": "Прочее",
+    "photo_count": 3,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9769.webp",
+    "cover_key": "web/2026-08-29/IMG_9769.webp",
+    "event_count": 0
+  },
+  {
+    "id": 74,
+    "name": "Philodendron ‘Ring of Fire’",
+    "status": "Активно",
+    "group": "Ароидные",
+    "photo_count": 5,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9779.webp",
+    "cover_key": "web/2026-08-29/IMG_9779.webp",
+    "event_count": 2
+  },
+  {
+    "id": 75,
+    "name": "Phalaenopsis — сорт неизвестен",
+    "status": "Активно",
+    "group": "Орхидеи",
+    "photo_count": 5,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9786.webp",
+    "cover_key": "web/2026-08-29/IMG_9786.webp",
+    "event_count": 0
+  },
+  {
+    "id": 76,
+    "name": "Cyclamen — красный",
+    "status": "Наблюдение",
+    "group": "Прочее",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9790.webp",
+    "cover_key": "web/2026-08-29/IMG_9790.webp",
+    "event_count": 0
+  },
+  {
+    "id": 77,
+    "name": "Cyclamen — розовый, два клубня",
+    "status": "Наблюдение",
+    "group": "Прочее",
+    "photo_count": 5,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9795.webp",
+    "cover_key": "web/2026-08-29/IMG_9795.webp",
+    "event_count": 0
+  },
+  {
+    "id": 78,
+    "name": "Cyclamen — розовый №2",
+    "status": "Наблюдение",
+    "group": "Прочее",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9799.webp",
+    "cover_key": "web/2026-08-29/IMG_9799.webp",
+    "event_count": 1
+  },
+  {
+    "id": 79,
+    "name": "Saintpaulia ‘Балтийская чайка?’",
+    "status": "Активно",
+    "group": "Фиалки",
+    "photo_count": 2,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9801.webp",
+    "cover_key": "web/2026-08-29/IMG_9801.webp",
+    "event_count": 0
+  },
+  {
+    "id": 80,
+    "name": "Hibiscus rosa-sinensis / гибискус",
+    "status": "Активно",
+    "group": "Прочее",
+    "photo_count": 3,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9804.webp",
+    "cover_key": "web/2026-08-29/IMG_9804.webp",
+    "event_count": 1
+  },
+  {
+    "id": 81,
+    "name": "Anthurium luxurians × radicans",
+    "status": "Активно",
+    "group": "Ароидные",
+    "photo_count": 5,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9809.webp",
+    "cover_key": "web/2026-08-29/IMG_9809.webp",
+    "event_count": 1
+  },
+  {
+    "id": 82,
+    "name": "Alocasia cuprea ‘Red Secret’",
+    "status": "Наблюдение",
+    "group": "Ароидные",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9813.webp",
+    "cover_key": "web/2026-08-29/IMG_9813.webp",
+    "event_count": 2
+  },
+  {
+    "id": 83,
+    "name": "Alocasia baginda ‘Silver Dragon’",
+    "status": "Активно",
+    "group": "Ароидные",
+    "photo_count": 3,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9817.webp",
+    "cover_key": "web/2026-08-29/IMG_9817.webp",
+    "event_count": 0
+  },
+  {
+    "id": 84,
+    "name": "Monstera deliciosa ‘Albo Variegata’",
+    "status": "Активно",
+    "group": "Ароидные",
+    "photo_count": 6,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9823.webp",
+    "cover_key": "web/2026-08-29/IMG_9823.webp",
+    "event_count": 0
+  },
+  {
+    "id": 85,
+    "name": "Phalaenopsis Yaphon Golden Leopard ‘AN6609’",
+    "status": "Наблюдение",
+    "group": "Орхидеи",
+    "photo_count": 6,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9688.webp",
+    "cover_key": "web/2026-08-29/IMG_9688.webp",
+    "event_count": 0
+  },
+  {
+    "id": 86,
+    "name": "Anthurium clarinervium",
+    "status": "Активно",
+    "group": "Ароидные",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9873.webp",
+    "cover_key": "web/2026-08-29/IMG_9873.webp",
+    "event_count": 0
+  },
+  {
+    "id": 87,
+    "name": "Cymbidium — сорт неизвестен",
+    "status": "Активно",
+    "group": "Орхидеи",
+    "photo_count": 10,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9869.webp",
+    "cover_key": "web/2026-08-29/IMG_9869.webp",
+    "event_count": 1
+  },
+  {
+    "id": 88,
+    "name": "Crassula ovata ‘Minor / Sunset?’ — маленькая, тёмно-зелёный рельефный горшок",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9861.webp",
+    "cover_key": "web/2026-08-29/IMG_9861.webp",
+    "event_count": 0
+  },
+  {
+    "id": 89,
+    "name": "Азалия №1",
+    "status": "Активно",
+    "group": "Прочее",
+    "photo_count": 3,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9846.webp",
+    "cover_key": "web/2026-08-29/IMG_9846.webp",
+    "event_count": 0
+  },
+  {
+    "id": 90,
+    "name": "Азалия №2",
+    "status": "Активно",
+    "group": "Прочее",
+    "photo_count": 3,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9843.webp",
+    "cover_key": "web/2026-08-29/IMG_9843.webp",
+    "event_count": 0
+  },
+  {
+    "id": 91,
+    "name": "Азалия №3",
+    "status": "Активно",
+    "group": "Прочее",
+    "photo_count": 3,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9840.webp",
+    "cover_key": "web/2026-08-29/IMG_9840.webp",
+    "event_count": 2
+  },
+  {
+    "id": 92,
+    "name": "Anthurium andraeanum — розовый",
+    "status": "Активно",
+    "group": "Ароидные",
+    "photo_count": 6,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9837.webp",
+    "cover_key": "web/2026-08-29/IMG_9837.webp",
+    "event_count": 1
+  },
+  {
+    "id": 93,
+    "name": "Сенполия — тёмная, красная изнанка, сорт неизвестен",
+    "status": "Наблюдение",
+    "group": "Фиалки",
+    "photo_count": 5,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9828.webp",
+    "cover_key": "web/2026-08-29/IMG_9828.webp",
+    "event_count": 0
+  },
+  {
+    "id": 94,
+    "name": "Myrtus communis / мирт",
+    "status": "Активно",
+    "group": "Древесные",
+    "photo_count": 7,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9602.webp",
+    "cover_key": "web/2026-08-29/IMG_9602.webp",
+    "event_count": 0
+  },
+  {
+    "id": 95,
+    "name": "Мандарин из косточки",
+    "status": "Активно",
+    "group": "Древесные",
+    "photo_count": 2,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9595.webp",
+    "cover_key": "web/2026-08-29/IMG_9595.webp",
+    "event_count": 0
+  },
+  {
+    "id": 96,
+    "name": "Anthurium andraeanum — маленький красный",
+    "status": "Активно",
+    "group": "Ароидные",
+    "photo_count": 3,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9137.webp",
+    "cover_key": "web/2026-08-29/IMG_9137.webp",
+    "event_count": 0
+  },
+  {
+    "id": 97,
+    "name": "Laurus nobilis — реанимация",
+    "status": "Реанимация",
+    "group": "Древесные",
+    "photo_count": 5,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9848.webp",
+    "cover_key": "web/2026-08-29/IMG_9848.webp",
+    "event_count": 0
+  },
+  {
+    "id": 98,
+    "name": "Philodendron ‘White Princess’ — маленький в стакане",
+    "status": "Активно",
+    "group": "Ароидные",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9086.webp",
+    "cover_key": "web/2026-08-29/IMG_9086.webp",
+    "event_count": 0
+  },
+  {
+    "id": 99,
+    "name": "Philodendron ‘White Princess’ — на опоре",
+    "status": "Активно",
+    "group": "Ароидные",
+    "photo_count": 3,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9691.webp",
+    "cover_key": "web/2026-08-29/IMG_9691.webp",
+    "event_count": 0
+  },
+  {
+    "id": 100,
+    "name": "Композиция из суккулентов — юбилейная №100",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 1,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_8977.webp",
+    "cover_key": "web/2026-08-29/IMG_8977.webp",
+    "event_count": 0
+  },
+  {
+    "id": 101,
+    "name": "Gymnocalycium mihanovichii variegata",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_9901.webp",
+    "cover_key": "web/2026-08-30/IMG_9901.webp",
+    "event_count": 0
+  },
+  {
+    "id": 102,
+    "name": "Crassula ovata ‘Gollum’ / «Гэндальф»",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 2,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_9900.webp",
+    "cover_key": "web/2026-08-30/IMG_9900.webp",
+    "event_count": 0
+  },
+  {
+    "id": 103,
+    "name": "Adenium obesum №1",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_9898.webp",
+    "cover_key": "web/2026-08-30/IMG_9898.webp",
+    "event_count": 0
+  },
+  {
+    "id": 104,
+    "name": "Crassula ovata ‘Coral’",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 8,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_9893.webp",
+    "cover_key": "web/2026-08-30/IMG_9893.webp",
+    "event_count": 0
+  },
+  {
+    "id": 105,
+    "name": "Haworthia cooperi",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_9883.webp",
+    "cover_key": "web/2026-08-30/IMG_9883.webp",
+    "event_count": 1
+  },
+  {
+    "id": 106,
+    "name": "Gonialoe variegata",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_9878.webp",
+    "cover_key": "web/2026-08-30/IMG_9878.webp",
+    "event_count": 1
+  },
+  {
+    "id": 107,
+    "name": "Crassula platyphylla ‘Variegata’",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 5,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_9958(2).webp",
+    "cover_key": "web/2026-08-30/IMG_9958(2).webp",
+    "event_count": 0
+  },
+  {
+    "id": 108,
+    "name": "Композиция суккулентов",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 6,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_9952.webp",
+    "cover_key": "web/2026-08-30/IMG_9952.webp",
+    "event_count": 0
+  },
+  {
+    "id": 109,
+    "name": "Sedum nussbaumerianum",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 5,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_9947.webp",
+    "cover_key": "web/2026-08-30/IMG_9947.webp",
+    "event_count": 1
+  },
+  {
+    "id": 110,
+    "name": "Echeveria ‘Perle von Nürnberg’",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 7,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_9940.webp",
+    "cover_key": "web/2026-08-30/IMG_9940.webp",
+    "event_count": 0
+  },
+  {
+    "id": 111,
+    "name": "Композиция суккулентов №2",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 10,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_9928.webp",
+    "cover_key": "web/2026-08-30/IMG_9928.webp",
+    "event_count": 0
+  },
+  {
+    "id": 112,
+    "name": "Echeveria lilacina + ‘Perle von Nürnberg’",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 5,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_9923.webp",
+    "cover_key": "web/2026-08-30/IMG_9923.webp",
+    "event_count": 0
+  },
+  {
+    "id": 113,
+    "name": "Adenium obesum №2",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 2,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_9921.webp",
+    "cover_key": "web/2026-08-30/IMG_9921.webp",
+    "event_count": 0
+  },
+  {
+    "id": 114,
+    "name": "Crassula swaziensis ‘Money Maker’",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 6,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_9915.webp",
+    "cover_key": "web/2026-08-30/IMG_9915.webp",
+    "event_count": 0
+  },
+  {
+    "id": 115,
+    "name": "Portulacaria afra ‘Variegata’",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_9911.webp",
+    "cover_key": "web/2026-08-30/IMG_9911.webp",
+    "event_count": 0
+  },
+  {
+    "id": 116,
+    "name": "Echeveria sp. (предв. multicaulis)",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 3,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_9908.webp",
+    "cover_key": "web/2026-08-30/IMG_9908.webp",
+    "event_count": 0
+  },
+  {
+    "id": 117,
+    "name": "Astrophytum asterias variegatum",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 2,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_9906.webp",
+    "cover_key": "web/2026-08-30/IMG_9906.webp",
+    "event_count": 0
+  },
+  {
+    "id": 118,
+    "name": "Echeveria sp.",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 1,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_9905.webp",
+    "cover_key": "web/2026-08-30/IMG_9905.webp",
+    "event_count": 0
+  },
+  {
+    "id": 119,
+    "name": "Adenium obesum ‘Hanh Mai 12’",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 6,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_9874.webp",
+    "cover_key": "web/2026-08-30/IMG_9874.webp",
+    "event_count": 1
+  },
+  {
+    "id": 120,
+    "name": "Hoya carnosa ‘Flamingo’",
+    "status": "Активно",
+    "group": "Прочее",
+    "photo_count": 2,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_9967.webp",
+    "cover_key": "web/2026-08-30/IMG_9967.webp",
+    "event_count": 1
+  },
+  {
+    "id": 121,
+    "name": "Anthurium crystallinum",
+    "status": "Активно",
+    "group": "Ароидные",
+    "photo_count": 5,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_9969.webp",
+    "cover_key": "web/2026-08-30/IMG_9969.webp",
+    "event_count": 0
+  },
+  {
+    "id": 122,
+    "name": "Phalaenopsis multiflora ‘Ultra Violet’",
+    "status": "Активно",
+    "group": "Орхидеи",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_9974.webp",
+    "cover_key": "web/2026-08-30/IMG_9974.webp",
+    "event_count": 0
+  },
+  {
+    "id": 123,
+    "name": "Phalaenopsis ‘Horizon?’",
+    "status": "Наблюдение",
+    "group": "Орхидеи",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_9978.webp",
+    "cover_key": "web/2026-08-30/IMG_9978.webp",
+    "event_count": 0
+  },
+  {
+    "id": 124,
+    "name": "Anthurium ‘Chocolate’ крупный — кокос+кора",
+    "status": "Активно",
+    "group": "Ароидные",
+    "photo_count": 5,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_9982.webp",
+    "cover_key": "web/2026-08-30/IMG_9982.webp",
+    "event_count": 0
+  },
+  {
+    "id": 125,
+    "name": "Alocasia reginula ‘Black Velvet’",
+    "status": "Активно",
+    "group": "Ароидные",
+    "photo_count": 6,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_9987.webp",
+    "cover_key": "web/2026-08-30/IMG_9987.webp",
+    "event_count": 0
+  },
+  {
+    "id": 126,
+    "name": "Alocasia × amazonica ‘Polly’",
+    "status": "Активно",
+    "group": "Ароидные",
+    "photo_count": 5,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_9993.webp",
+    "cover_key": "web/2026-08-30/IMG_9993.webp",
+    "event_count": 0
+  },
+  {
+    "id": 127,
+    "name": "Hedera helix, округлолистная форма",
+    "status": "Активно",
+    "group": "Плющи",
+    "photo_count": 6,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_9998.webp",
+    "cover_key": "web/2026-08-30/IMG_9998.webp",
+    "event_count": 0
+  },
+  {
+    "id": 128,
+    "name": "Alocasia ‘Tiny Dancer’",
+    "status": "Активно",
+    "group": "Ароидные",
+    "photo_count": 5,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0005.webp",
+    "cover_key": "web/2026-08-30/IMG_0005.webp",
+    "event_count": 0
+  },
+  {
+    "id": 129,
+    "name": "Alocasia tandurusa ‘Jacklyn’",
+    "status": "Активно",
+    "group": "Ароидные",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0010.webp",
+    "cover_key": "web/2026-08-30/IMG_0010.webp",
+    "event_count": 0
+  },
+  {
+    "id": 130,
+    "name": "Begonia rex ‘Jive’",
+    "status": "Активно",
+    "group": "Бегонии",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0014.webp",
+    "cover_key": "web/2026-08-30/IMG_0014.webp",
+    "event_count": 0
+  },
+  {
+    "id": 131,
+    "name": "Epipremnum aureum ‘Marble Queen’",
+    "status": "Активно",
+    "group": "Ароидные",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0018.webp",
+    "cover_key": "web/2026-08-30/IMG_0018.webp",
+    "event_count": 0
+  },
+  {
+    "id": 132,
+    "name": "Phalaenopsis ‘Sogo Yukidian × pelor Cambridge’ — сеянец №1",
+    "status": "Активно",
+    "group": "Орхидеи",
+    "photo_count": 8,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0023.webp",
+    "cover_key": "web/2026-08-30/IMG_0023.webp",
+    "event_count": 4
+  },
+  {
+    "id": 133,
+    "name": "Phalaenopsis ‘Sogo Yukidian × pelor Cambridge’ — сеянец №2",
+    "status": "Наблюдение",
+    "group": "Орхидеи",
+    "photo_count": 2,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0109.webp",
+    "cover_key": "web/2026-08-30/IMG_0109.webp",
+    "event_count": 0
+  },
+  {
+    "id": 134,
+    "name": "Hoya carnosa ‘Tricolor’ / ‘Krimson Queen’",
+    "status": "Активно",
+    "group": "Прочее",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0029.webp",
+    "cover_key": "web/2026-08-30/IMG_0029.webp",
+    "event_count": 0
+  },
+  {
+    "id": 135,
+    "name": "Anthurium ‘Варока’",
+    "status": "Активно",
+    "group": "Ароидные",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0033.webp",
+    "cover_key": "web/2026-08-30/IMG_0033.webp",
+    "event_count": 0
+  },
+  {
+    "id": 136,
+    "name": "Phalaenopsis Pure Moon ‘Green Pixie’",
+    "status": "Активно",
+    "group": "Орхидеи",
+    "photo_count": 10,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0037.webp",
+    "cover_key": "web/2026-08-30/IMG_0037.webp",
+    "event_count": 0
+  },
+  {
+    "id": 137,
+    "name": "Spathiphyllum ‘Chopin’",
+    "status": "Наблюдение",
+    "group": "Ароидные",
+    "photo_count": 10,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0042.webp",
+    "cover_key": "web/2026-08-30/IMG_0042.webp",
+    "event_count": 1
+  },
+  {
+    "id": 138,
+    "name": "Philodendron ‘Birkin’ — крупный, торф",
+    "status": "Активно",
+    "group": "Ароидные",
+    "photo_count": 10,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0056.webp",
+    "cover_key": "web/2026-08-30/IMG_0056.webp",
+    "event_count": 0
+  },
+  {
+    "id": 139,
+    "name": "Ficus elastica ‘Shivereana/Mojito’",
+    "status": "Активно",
+    "group": "Фикусы",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0066.webp",
+    "cover_key": "web/2026-08-30/IMG_0066.webp",
+    "event_count": 0
+  },
+  {
+    "id": 140,
+    "name": "Philodendron ‘Pink Princess’ — сфагнум",
+    "status": "Активно",
+    "group": "Ароидные",
+    "photo_count": 9,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0070.webp",
+    "cover_key": "web/2026-08-30/IMG_0070.webp",
+    "event_count": 0
+  },
+  {
+    "id": 141,
+    "name": "Spathiphyllum — маленький, банка",
+    "status": "Наблюдение",
+    "group": "Ароидные",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0079.webp",
+    "cover_key": "web/2026-08-30/IMG_0079.webp",
+    "event_count": 0
+  },
+  {
+    "id": 142,
+    "name": "Phalaenopsis — крупные зелёные цветы",
+    "status": "Активно",
+    "group": "Орхидеи",
+    "photo_count": 2,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0083.webp",
+    "cover_key": "web/2026-08-30/IMG_0083.webp",
+    "event_count": 0
+  },
+  {
+    "id": 143,
+    "name": "Asplenium nidus",
+    "status": "Наблюдение",
+    "group": "Папоротники",
+    "photo_count": 3,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0085.webp",
+    "cover_key": "web/2026-08-30/IMG_0085.webp",
+    "event_count": 0
+  },
+  {
+    "id": 144,
+    "name": "Kalanchoe blossfeldiana — розовый махровый",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 3,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0088.webp",
+    "cover_key": "web/2026-08-30/IMG_0088.webp",
+    "event_count": 0
+  },
+  {
+    "id": 145,
+    "name": "Композиция суккулентов «Морская волна»",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 5,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0091.webp",
+    "cover_key": "web/2026-08-30/IMG_0091.webp",
+    "event_count": 0
+  },
+  {
+    "id": 146,
+    "name": "Суккуленты «Курчавые»",
+    "status": "Наблюдение",
+    "group": "Суккуленты",
+    "photo_count": 1,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0096.webp",
+    "cover_key": "web/2026-08-30/IMG_0096.webp",
+    "event_count": 0
+  },
+  {
+    "id": 147,
+    "name": "Эхеверия «Буря в стакане»",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 2,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0097.webp",
+    "cover_key": "web/2026-08-30/IMG_0097.webp",
+    "event_count": 0
+  },
+  {
+    "id": 148,
+    "name": "Суккуленты «Емеля и Щука»",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 2,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0099.webp",
+    "cover_key": "web/2026-08-30/IMG_0099.webp",
+    "event_count": 0
+  },
+  {
+    "id": 149,
+    "name": "Adenium «Барашек» №1",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 2,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0102.webp",
+    "cover_key": "web/2026-08-30/IMG_0102.webp",
+    "event_count": 0
+  },
+  {
+    "id": 150,
+    "name": "Adenium «Барашек» №2",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 2,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0102.webp",
+    "cover_key": "web/2026-08-30/IMG_0102.webp",
+    "event_count": 0
+  },
+  {
+    "id": 151,
+    "name": "Adenium «Барашек» №3",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 2,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0102.webp",
+    "cover_key": "web/2026-08-30/IMG_0102.webp",
+    "event_count": 0
+  },
+  {
+    "id": 152,
+    "name": "Adenium «Барашек» №4",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 2,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0102.webp",
+    "cover_key": "web/2026-08-30/IMG_0102.webp",
+    "event_count": 0
+  },
+  {
+    "id": 153,
+    "name": "Adenium «Барашек» №5",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 2,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0102.webp",
+    "cover_key": "web/2026-08-30/IMG_0102.webp",
+    "event_count": 0
+  },
+  {
+    "id": 154,
+    "name": "Adenium obesum №4",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 3,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0103.webp",
+    "cover_key": "web/2026-08-30/IMG_0103.webp",
+    "event_count": 0
+  },
+  {
+    "id": 155,
+    "name": "Adenium obesum №5",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 3,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0106.webp",
+    "cover_key": "web/2026-08-30/IMG_0106.webp",
+    "event_count": 0
+  },
+  {
+    "id": 156,
+    "name": "Philodendron ‘El Choco Red’",
+    "status": "Активно",
+    "group": "Ароидные",
+    "photo_count": 9,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0114.webp",
+    "cover_key": "web/2026-08-30/IMG_0114.webp",
+    "event_count": 0
+  },
+  {
+    "id": 157,
+    "name": "Anthurium ‘King of Clarinervium’ — поддон клонов",
+    "status": "Наблюдение",
+    "group": "Ароидные",
+    "photo_count": 8,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0123.webp",
+    "cover_key": "web/2026-08-30/IMG_0123.webp",
+    "event_count": 0
+  },
+  {
+    "id": 158,
+    "name": "Гибискус из семечка «фиолетовый»",
+    "status": "Активно",
+    "group": "Прочее",
+    "photo_count": 5,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0131.webp",
+    "cover_key": "web/2026-08-30/IMG_0131.webp",
+    "event_count": 0
+  },
+  {
+    "id": 159,
+    "name": "Орхидея белая после реанимации",
+    "status": "Активно",
+    "group": "Орхидеи",
+    "photo_count": 5,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0140.webp",
+    "cover_key": "web/2026-08-30/IMG_0140.webp",
+    "event_count": 2
+  },
+  {
+    "id": 160,
+    "name": "Гибискус из семечка «оранжевый»",
+    "status": "Активно",
+    "group": "Прочее",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0145.webp",
+    "cover_key": "web/2026-08-30/IMG_0145.webp",
+    "event_count": 0
+  },
+  {
+    "id": 161,
+    "name": "Гибискус из семечка «розовый»",
+    "status": "Активно",
+    "group": "Прочее",
+    "photo_count": 6,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0149.webp",
+    "cover_key": "web/2026-08-30/IMG_0149.webp",
+    "event_count": 0
+  },
+  {
+    "id": 162,
+    "name": "Aloe sp., сорт неизвестен",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0155.webp",
+    "cover_key": "web/2026-08-30/IMG_0155.webp",
+    "event_count": 0
+  },
+  {
+    "id": 163,
+    "name": "Crassula tenelli",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 3,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0159.webp",
+    "cover_key": "web/2026-08-30/IMG_0159.webp",
+    "event_count": 0
+  },
+  {
+    "id": 164,
+    "name": "Echeveria sp., сорт неизвестен",
+    "status": "Наблюдение",
+    "group": "Суккуленты",
+    "photo_count": 3,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0162.webp",
+    "cover_key": "web/2026-08-30/IMG_0162.webp",
+    "event_count": 0
+  },
+  {
+    "id": 165,
+    "name": "Суккулент №165",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 1,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0165.webp",
+    "cover_key": "web/2026-08-30/IMG_0165.webp",
+    "event_count": 0
+  },
+  {
+    "id": 166,
+    "name": "Суккулент №166",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 1,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0166.webp",
+    "cover_key": "web/2026-08-30/IMG_0166.webp",
+    "event_count": 0
+  },
+  {
+    "id": 167,
+    "name": "Суккулент №167",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 1,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0167.webp",
+    "cover_key": "web/2026-08-30/IMG_0167.webp",
+    "event_count": 0
+  },
+  {
+    "id": 168,
+    "name": "Суккулент №168",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 1,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0168.webp",
+    "cover_key": "web/2026-08-30/IMG_0168.webp",
+    "event_count": 0
+  },
+  {
+    "id": 169,
+    "name": "Суккулент №169",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 1,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0170.webp",
+    "cover_key": "web/2026-08-30/IMG_0170.webp",
+    "event_count": 0
+  },
+  {
+    "id": 170,
+    "name": "Суккулент №170",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 1,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0171.webp",
+    "cover_key": "web/2026-08-30/IMG_0171.webp",
+    "event_count": 0
+  },
+  {
+    "id": 171,
+    "name": "Суккулент №171",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 1,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0172.webp",
+    "cover_key": "web/2026-08-30/IMG_0172.webp",
+    "event_count": 0
+  },
+  {
+    "id": 172,
+    "name": "Суккулент №172",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 1,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0173.webp",
+    "cover_key": "web/2026-08-30/IMG_0173.webp",
+    "event_count": 0
+  },
+  {
+    "id": 173,
+    "name": "Суккулент №173",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 1,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0174.webp",
+    "cover_key": "web/2026-08-30/IMG_0174.webp",
+    "event_count": 0
+  },
+  {
+    "id": 174,
+    "name": "Суккулент №174",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 1,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0175.webp",
+    "cover_key": "web/2026-08-30/IMG_0175.webp",
+    "event_count": 0
+  },
+  {
+    "id": 175,
+    "name": "Суккулент №175",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 1,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0176.webp",
+    "cover_key": "web/2026-08-30/IMG_0176.webp",
+    "event_count": 0
+  },
+  {
+    "id": 176,
+    "name": "Суккулент №176",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 1,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0177.webp",
+    "cover_key": "web/2026-08-30/IMG_0177.webp",
+    "event_count": 0
+  },
+  {
+    "id": 177,
+    "name": "Суккулент №177",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 1,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0178.webp",
+    "cover_key": "web/2026-08-30/IMG_0178.webp",
+    "event_count": 0
+  },
+  {
+    "id": 178,
+    "name": "Суккулент №178",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 1,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0180.webp",
+    "cover_key": "web/2026-08-30/IMG_0180.webp",
+    "event_count": 0
+  },
+  {
+    "id": 179,
+    "name": "Суккулент №179",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 1,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0181.webp",
+    "cover_key": "web/2026-08-30/IMG_0181.webp",
+    "event_count": 0
+  },
+  {
+    "id": 180,
+    "name": "Суккулент №180",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 1,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0182.webp",
+    "cover_key": "web/2026-08-30/IMG_0182.webp",
+    "event_count": 0
+  },
+  {
+    "id": 181,
+    "name": "Суккулент №181",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 1,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0179.webp",
+    "cover_key": "web/2026-08-30/IMG_0179.webp",
+    "event_count": 0
+  },
+  {
+    "id": 182,
+    "name": "Композиция суккулентов «Зелёная горка»",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 3,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0183.webp",
+    "cover_key": "web/2026-08-30/IMG_0183.webp",
+    "event_count": 0
+  },
+  {
+    "id": 183,
+    "name": "Monstera deliciosa ‘Thai Constellation?’",
+    "status": "Наблюдение",
+    "group": "Ароидные",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0186.webp",
+    "cover_key": "web/2026-08-30/IMG_0186.webp",
+    "event_count": 0
+  },
+  {
+    "id": 184,
+    "name": "Macodes petola",
+    "status": "Активно",
+    "group": "Орхидеи",
+    "photo_count": 3,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0190.webp",
+    "cover_key": "web/2026-08-30/IMG_0190.webp",
+    "event_count": 1
+  },
+  {
+    "id": 185,
+    "name": "Подокарпус из семечка №1",
+    "status": "Активно",
+    "group": "Древесные",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0193.webp",
+    "cover_key": "web/2026-08-30/IMG_0193.webp",
+    "event_count": 1
+  },
+  {
+    "id": 186,
+    "name": "Подокарпус из семечка №2",
+    "status": "Активно",
+    "group": "Древесные",
+    "photo_count": 2,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0200.webp",
+    "cover_key": "web/2026-08-30/IMG_0200.webp",
+    "event_count": 0
+  },
+  {
+    "id": 187,
+    "name": "Scindapsus pictus ‘Argyraeus’",
+    "status": "Активно",
+    "group": "Ароидные",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0202.webp",
+    "cover_key": "web/2026-08-30/IMG_0202.webp",
+    "event_count": 1
+  },
+  {
+    "id": 188,
+    "name": "Epipremnum aureum — после короткой стрижки",
+    "status": "Наблюдение",
+    "group": "Ароидные",
+    "photo_count": 1,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0211.webp",
+    "cover_key": "web/2026-08-30/IMG_0211.webp",
+    "event_count": 2
+  },
+  {
+    "id": 189,
+    "name": "Begonia soli-mutata — листовое размножение №1",
+    "status": "Укоренение",
+    "group": "Бегонии",
+    "photo_count": 3,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0212.webp",
+    "cover_key": "web/2026-08-30/IMG_0212.webp",
+    "event_count": 1
+  },
+  {
+    "id": 190,
+    "name": "Begonia soli-mutata — листовое размножение №2",
+    "status": "Укоренение",
+    "group": "Бегонии",
+    "photo_count": 3,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0215.webp",
+    "cover_key": "web/2026-08-30/IMG_0215.webp",
+    "event_count": 0
+  },
+  {
+    "id": 191,
+    "name": "Aeschynanthus ‘Mona Lisa’ — черенок №1",
+    "status": "Укоренение",
+    "group": "Прочее",
+    "photo_count": 3,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0218.webp",
+    "cover_key": "web/2026-08-30/IMG_0218.webp",
+    "event_count": 1
+  },
+  {
+    "id": 192,
+    "name": "Aeschynanthus ‘Mona Lisa’ — черенок №2",
+    "status": "Укоренение",
+    "group": "Прочее",
+    "photo_count": 3,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0221.webp",
+    "cover_key": "web/2026-08-30/IMG_0221.webp",
+    "event_count": 1
+  },
+  {
+    "id": 193,
+    "name": "Сенполия ‘Роза ветров’",
+    "status": "Активно",
+    "group": "Фиалки",
+    "photo_count": 6,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0229.webp",
+    "cover_key": "web/2026-08-30/IMG_0229.webp",
+    "event_count": 0
+  },
+  {
+    "id": 194,
+    "name": "Сенполия ‘ЕК-Морской волк’",
+    "status": "Укоренение",
+    "group": "Фиалки",
+    "photo_count": 6,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0229.webp",
+    "cover_key": "web/2026-08-30/IMG_0229.webp",
+    "event_count": 1
+  },
+  {
+    "id": 195,
+    "name": "Банка со мхом и фиттониями",
+    "status": "Наблюдение",
+    "group": "Прочее",
+    "photo_count": 5,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0230.webp",
+    "cover_key": "web/2026-08-30/IMG_0230.webp",
+    "event_count": 1
+  },
+  {
+    "id": 196,
+    "name": "Begonia rex ‘Maui?’",
+    "status": "Наблюдение",
+    "group": "Бегонии",
+    "photo_count": 3,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-30/IMG_0235.webp",
+    "cover_key": "web/2026-08-30/IMG_0235.webp",
+    "event_count": 1
+  },
+  {
+    "id": 197,
+    "name": "Взрослый фикус",
+    "status": "Активно",
+    "group": "Фикусы",
+    "photo_count": 10,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-31/IMG_0238.webp",
+    "cover_key": "web/2026-08-31/IMG_0238.webp",
+    "event_count": 0
+  },
+  {
+    "id": 198,
+    "name": "Echeveria ‘Black Knight’",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-31/IMG_0251.webp",
+    "cover_key": "web/2026-08-31/IMG_0251.webp",
+    "event_count": 0
+  },
+  {
+    "id": 199,
+    "name": "Взрослая крупная азалия",
+    "status": "Активно",
+    "group": "Прочее",
+    "photo_count": 10,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-31/IMG_0255.webp",
+    "cover_key": "web/2026-08-31/IMG_0255.webp",
+    "event_count": 0
+  },
+  {
+    "id": 200,
+    "name": "Portulacaria afra",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 10,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-31/IMG_0265.webp",
+    "cover_key": "web/2026-08-31/IMG_0265.webp",
+    "event_count": 0
+  },
+  {
+    "id": 201,
+    "name": "Поддон с суккулентами",
+    "status": "Активно",
+    "group": "Суккуленты",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-31/IMG_0241.webp",
+    "cover_key": "web/2026-08-31/IMG_0241.webp",
+    "event_count": 0
+  },
+  {
+    "id": 202,
+    "name": "Замиокулькас",
+    "status": "Активно",
+    "group": "Ароидные",
+    "photo_count": 9,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-31/IMG_0744.webp",
+    "cover_key": "web/2026-08-31/IMG_0744.webp",
+    "event_count": 0
+  },
+  {
+    "id": 203,
+    "name": "Ficus elastica — взрослый зелёный",
+    "status": "Активно",
+    "group": "Фикусы",
+    "photo_count": 7,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9868.webp",
+    "cover_key": "web/2026-08-29/IMG_9868.webp",
+    "event_count": 0
+  },
+  {
+    "id": 204,
+    "name": "Saintpaulia ‘ЕК-Бой Быков’",
+    "status": "Активно",
+    "group": "Фиалки",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9704.webp",
+    "cover_key": "web/2026-08-29/IMG_9704.webp",
+    "event_count": 0
+  },
+  {
+    "id": 205,
+    "name": "Saintpaulia ‘Балеро’",
+    "status": "Активно",
+    "group": "Фиалки",
+    "photo_count": 2,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9721.webp",
+    "cover_key": "web/2026-08-29/IMG_9721.webp",
+    "event_count": 0
+  },
+  {
+    "id": 206,
+    "name": "Saintpaulia ‘Вальс цветов’ №1",
+    "status": "Активно",
+    "group": "Фиалки",
+    "photo_count": 2,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9711.webp",
+    "cover_key": "web/2026-08-29/IMG_9711.webp",
+    "event_count": 0
+  },
+  {
+    "id": 207,
+    "name": "Saintpaulia ‘Вальс цветов’ №2",
+    "status": "Активно",
+    "group": "Фиалки",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9719.webp",
+    "cover_key": "web/2026-08-29/IMG_9719.webp",
+    "event_count": 0
+  },
+  {
+    "id": 208,
+    "name": "Сенполия неизвестная №1",
+    "status": "Наблюдение",
+    "group": "Фиалки",
+    "photo_count": 2,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9700.webp",
+    "cover_key": "web/2026-08-29/IMG_9700.webp",
+    "event_count": 0
+  },
+  {
+    "id": 209,
+    "name": "Сенполия неизвестная №2",
+    "status": "Наблюдение",
+    "group": "Фиалки",
+    "photo_count": 4,
+    "cover": "https://storage.yandexcloud.net/plant-diary-photos/web/2026-08-29/IMG_9708.webp",
+    "cover_key": "web/2026-08-29/IMG_9708.webp",
+    "event_count": 0
+  }
+]

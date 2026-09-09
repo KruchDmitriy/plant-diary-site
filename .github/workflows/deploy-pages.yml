@@ -1,0 +1,75 @@
+name: Deploy plant diary to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    # 06:17 Moscow time (GitHub schedules use UTC).
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read
+    env:
+      AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Test the Airtable normalizer
+        run: python3 -B -m unittest discover -s tests -v
+
+      - name: Require Airtable token for scheduled sync
+        if: github.event_name == 'schedule' && env.AIRTABLE_TOKEN == ''
+        run: |
+          echo "AIRTABLE_TOKEN is required for scheduled sync" >&2
+          exit 1
+
+      - name: Sync Airtable to JSON
+        if: env.AIRTABLE_TOKEN != ''
+        run: python3 -B tools/sync_airtable.py
+
+      - name: Validate JSON snapshot
+        run: python3 tools/sync_airtable.py --validate-only
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Prepare static artifact
+        run: |
+          mkdir -p _site/assets _site/data
+          cp index.html .nojekyll _site/
+          cp assets/app.js assets/styles.css _site/assets/
+          cp data/plants.json data/photos.json data/events.json _site/data/
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+          include-hidden-files: true
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

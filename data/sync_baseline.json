@@ -1,0 +1,49 @@
+{
+  "minimum_counts": {
+    "plants": 209,
+    "photos": 850,
+    "events": 43
+  },
+  "protected_plant_id_ranges": [
+    [
+      1,
+      209
+    ]
+  ],
+  "protected_plant_names": {
+    "1": "Anthurium Darkest Panama (Eddy) × BVEP Scott × RVDP",
+    "2": "Anthurium Tezula Red Crystallinum × (SKG Silver × Red Crystallinum)",
+    "3": "Alocasia ‘Bambino Pink Variegata’",
+    "4": "Ficus triangularis ‘White Margin’",
+    "5": "Begonia ‘Autumn Amber’",
+    "6": "Begonia ‘Black Mamba’",
+    "7": "Begonia ‘DS Luxury Red’ — листовой черенок с деткой",
+    "8": "Caladium — красный/«scarlet», сорт неизвестен",
+    "9": "Caladium — зелёно-розовый, сорт неизвестен",
+    "10": "Alocasia sp. ‘Bisma / Platinum?’",
+    "11": "Colocasia esculenta ‘Black Coral’",
+    "12": "Crassula ovata ‘Minor / Sunset?’ — крупный экземпляр",
+    "13": "Ficus microcarpa ‘Ginseng’ №1",
+    "14": "Ficus microcarpa ‘Ginseng’ №2",
+    "15": "Kalanchoe sp. — лопастная форма",
+    "16": "Catalpa bignonioides",
+    "17": "Platycladus orientalis / туя восточная",
+    "18": "Роза Kordana / мини-роза",
+    "19": "Polyscias scutellaria ‘Fabian’",
+    "20": "Quercus suber / пробковый дуб",
+    "21": "Gardenia jasminoides",
+    "22": "Syngonium ‘Pixie’",
+    "23": "Anthurium ‘Chocolate’ — сфагнум + цеолит",
+    "24": "Alocasia ‘Dragon’s Breath’",
+    "25": "Каламондин / ×Citrofortunella microcarpa",
+    "26": "Alocasia baginda ‘Dragon Scale’",
+    "27": "Saintpaulia ‘Black Tie Affair’",
+    "28": "Ficus neriifolia",
+    "29": "Philodendron ‘Birkin’ — фитиль, Lechuza",
+    "30": "Philodendron ‘Pink Princess Marble’ — фитиль, перлит",
+    "31": "Philodendron ‘Pink Congo’ — фитиль, Lechuza",
+    "32": "Ficus microcarpa ‘Green Island’",
+    "33": "Ficus benjamina ‘Curly’",
+    "34": "Ficus benjamina ‘Irene’"
+  }
+}
