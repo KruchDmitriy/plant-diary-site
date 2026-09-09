@@ -1,4 +1,4 @@
-openapi: 3.0.3
+openapi: 3.1.0
 info:
   title: Plant Diary GPT Action API
   version: 0.1.1
@@ -455,6 +455,7 @@ paths:
                     additionalProperties: true
                 additionalProperties: true
 components:
+  schemas: {}
   securitySchemes:
     PlantApiKey:
       type: apiKey

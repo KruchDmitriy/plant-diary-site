@@ -74,6 +74,8 @@ class PlantAPIContractTests(unittest.TestCase):
         schema = yaml.safe_load(
             Path("plant_api/openapi-action.yaml").read_text(encoding="utf-8")
         )
+        self.assertIn(schema["openapi"], {"3.1.0", "3.1.1"})
+        self.assertIsInstance(schema["components"]["schemas"], dict)
         for path, methods in schema["paths"].items():
             for method, operation in methods.items():
                 with self.subTest(path=path, method=method):
