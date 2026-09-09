@@ -148,6 +148,12 @@ def public_image_url(web_key: str) -> str:
     return f"{PUBLIC_IMAGE_ROOT}/{encoded_key}"
 
 
+def rename_approval_sentence(old_name: str, new_name: str) -> str:
+    """Human-readable audit text that authorizes one intentional protected-name change."""
+
+    return f"Название уточнено: «{old_name}» → «{new_name}»."
+
+
 def web_key_from_url(url: str | None) -> str | None:
     if not url:
         return None
@@ -487,6 +493,11 @@ def validate_snapshot(
     if duplicate_ids:
         errors.append(f"duplicate Plant IDs: {duplicate_ids}")
     known_plant_ids = set(plant_ids)
+    events_by_plant: dict[int, list[dict[str, Any]]] = {}
+    for event in events:
+        event_plant_id = event.get("plant_id")
+        if isinstance(event_plant_id, int) and not isinstance(event_plant_id, bool):
+            events_by_plant.setdefault(event_plant_id, []).append(event)
 
     protected_ids: set[int] = set()
     for value in baseline.get("protected_plant_ids", []):
@@ -507,12 +518,21 @@ def validate_snapshot(
             continue
         actual_name = names_by_id.get(plant_id)
         if actual_name is not None and actual_name != expected_name:
-            errors.append(
-                f"protected plant #{plant_id} was renamed: {actual_name!r} != {expected_name!r}"
-            )
+            approval = rename_approval_sentence(expected_name, actual_name)
+            if not any(
+                text_value(event.get("title")) == "Уточнение названия"
+                and text_value(event.get("type")) == "Другое"
+                and approval in text_value(event.get("description"))
+                for event in events_by_plant.get(plant_id, [])
+            ):
+                errors.append(
+                    f"protected plant #{plant_id} was renamed without an approval event: "
+                    f"{actual_name!r} != {expected_name!r}"
+                )
 
     web_keys: list[str] = []
     actual_photo_counts: Counter[int] = Counter()
+    photo_plant_ids_by_web_key: dict[str, set[int]] = {}
     for position, photo in enumerate(photos, start=1):
         context = f"photos[{position}]"
         web_key = text_value(photo.get("web_key"))
@@ -531,6 +551,10 @@ def validate_snapshot(
             continue
         if len(linked_ids) != len(set(linked_ids)):
             errors.append(f"{context}: duplicate values in plant_ids")
+        if web_key:
+            photo_plant_ids_by_web_key[web_key] = {
+                plant_id for plant_id in linked_ids if isinstance(plant_id, int)
+            }
         for plant_id in linked_ids:
             if isinstance(plant_id, bool) or not isinstance(plant_id, int):
                 errors.append(f"{context}: non-integer linked Plant ID {plant_id!r}")
@@ -584,6 +608,8 @@ def validate_snapshot(
         cover_key = optional_text(plant.get("cover_key"))
         if cover_key and cover_key not in known_web_keys:
             errors.append(f"plant #{plant_id}: cover_key does not exist in photos")
+        elif cover_key and plant_id not in photo_plant_ids_by_web_key.get(cover_key, set()):
+            errors.append(f"plant #{plant_id}: cover photo is not linked to this plant")
 
     if errors:
         preview = errors[:50]

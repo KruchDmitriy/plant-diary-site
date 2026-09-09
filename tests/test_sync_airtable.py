@@ -113,5 +113,100 @@ class NormalizeSnapshotTests(unittest.TestCase):
             sync_airtable.normalize_snapshot(self.plants, self.photos, self.events)
 
 
+class SnapshotValidationTests(unittest.TestCase):
+    def setUp(self):
+        self.photo = {
+            "index": 1,
+            "filename": "one.jpg",
+            "date": "2026-09-09",
+            "type": "Основное",
+            "plant_ids": [1],
+            "web_key": "web/2026-09-09/one.webp",
+            "url": sync_airtable.public_image_url("web/2026-09-09/one.webp"),
+            "sha256": "a" * 64,
+            "width": 100,
+            "height": 100,
+            "note": "",
+        }
+        self.plants = [
+            {
+                "id": 1,
+                "name": "Plant one",
+                "status": "Active",
+                "group": "Group",
+                "photo_count": 1,
+                "cover": self.photo["url"],
+                "cover_key": self.photo["web_key"],
+                "event_count": 0,
+            },
+            {
+                "id": 2,
+                "name": "Plant two",
+                "status": "Active",
+                "group": "Group",
+                "photo_count": 0,
+                "cover": None,
+                "cover_key": None,
+                "event_count": 0,
+            },
+        ]
+        self.baseline = {
+            "minimum_counts": {"plants": 0, "photos": 0, "events": 0},
+            "protected_plant_ids": [1, 2],
+            "protected_plant_names": {"1": "Plant one"},
+        }
+
+    def test_rejects_cover_linked_to_another_plant(self):
+        self.plants[1]["cover"] = self.photo["url"]
+        self.plants[1]["cover_key"] = self.photo["web_key"]
+        with self.assertRaisesRegex(sync_airtable.SyncError, "cover photo is not linked"):
+            sync_airtable.validate_snapshot(self.plants, [self.photo], [], self.baseline)
+
+    def test_protected_rename_requires_audit_event(self):
+        self.plants[0]["name"] = "Corrected plant"
+        with self.assertRaisesRegex(sync_airtable.SyncError, "without an approval event"):
+            sync_airtable.validate_snapshot(self.plants, [self.photo], [], self.baseline)
+
+    def test_protected_rename_accepts_exact_audit_event(self):
+        self.plants[0]["name"] = "Corrected plant"
+        self.plants[0]["event_count"] = 1
+        events = [
+            {
+                "id": 1,
+                "plant_id": 1,
+                "date": "2026-09-09",
+                "type": "Другое",
+                "title": "Уточнение названия",
+                "description": sync_airtable.rename_approval_sentence(
+                    "Plant one", "Corrected plant"
+                ),
+                "date_precision": "Точная",
+                "period": None,
+            }
+        ]
+        stats = sync_airtable.validate_snapshot(self.plants, [self.photo], events, self.baseline)
+        self.assertEqual(stats["events"], 1)
+
+    def test_protected_rename_rejects_unrelated_event_with_same_words(self):
+        self.plants[0]["name"] = "Corrected plant"
+        self.plants[0]["event_count"] = 1
+        events = [
+            {
+                "id": 1,
+                "plant_id": 1,
+                "date": "2026-09-09",
+                "type": "Наблюдение",
+                "title": "Note",
+                "description": sync_airtable.rename_approval_sentence(
+                    "Plant one", "Corrected plant"
+                ),
+                "date_precision": "Точная",
+                "period": None,
+            }
+        ]
+        with self.assertRaisesRegex(sync_airtable.SyncError, "without an approval event"):
+            sync_airtable.validate_snapshot(self.plants, [self.photo], events, self.baseline)
+
+
 if __name__ == "__main__":
     unittest.main()

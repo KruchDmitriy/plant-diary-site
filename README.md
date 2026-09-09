@@ -20,7 +20,9 @@ python3 -m http.server 8080
 
 ```bash
 python3 -B tools/sync_airtable.py --validate-only
-python3 -B -m unittest discover -s tests -v
+python3 -m venv .venv
+.venv/bin/pip install -r plant_api/requirements.txt -r plant_api/requirements-dev.txt
+.venv/bin/python -B -m unittest discover -s tests -v
 ```
 
 ## GitHub Pages
@@ -77,6 +79,26 @@ unset AIRTABLE_TOKEN
 
 Токен Airtable читается только из `AIRTABLE_TOKEN`; в frontend и JSON он не
 попадает. `.env` и варианты `.env.*` исключены через `.gitignore`.
+
+## Добавление растений и фото из приватного GPT
+
+В `plant_api/` находится отдельный защищённый API для Custom GPT. Он работает с
+текущими таблицами Airtable — новые служебные поля не нужны — и умеет:
+
+- добавлять фотографии и комментарий к существующему Plant ID;
+- создавать новый физический экземпляр с очередным Plant ID;
+- уточнять название, латинское имя и сорт без изменения Plant ID;
+- выбирать уже загруженное фото как превью карточки;
+- добавлять событие в дневник.
+
+По умолчанию запись выключена. Даже после включения каждое изменение требует
+явного подтверждения пользователя; создание растения дополнительно фиксирует
+заранее показанный следующий ID и безопасно отклоняет повторный запрос.
+
+Локальная проверка и требования к HTTPS-хостингу описаны в
+[`plant_api/README.md`](plant_api/README.md). GitHub Pages остаётся статическим
+публичным сайтом; приватный API разворачивается отдельно и после записи запускает
+существующий Airtable → JSON → Pages workflow.
 
 ## Сделать WebP публичными, не открывая originals
 

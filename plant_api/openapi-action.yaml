@@ -1,0 +1,313 @@
+openapi: 3.1.0
+info:
+  title: Plant Diary GPT Action API
+  version: 0.1.0
+  description: >-
+    Private API for finding plants, adding photos and events, creating plants,
+    correcting plant identity, and choosing a cover photo. Plant IDs are permanent.
+servers:
+  - url: https://plant-api.example.com
+security:
+  - PlantApiKey: []
+paths:
+  /plants/search:
+    get:
+      operationId: searchPlants
+      summary: Find existing plants before any mutation.
+      description: Search by permanent Plant ID, display name, Latin name, or cultivar.
+      parameters:
+        - name: query
+          in: query
+          required: true
+          schema: {type: string, minLength: 1, maxLength: 200}
+        - name: limit
+          in: query
+          required: false
+          schema: {type: integer, minimum: 1, maximum: 20, default: 10}
+      responses:
+        "200":
+          description: Matching plants.
+          content:
+            application/json:
+              schema: {type: object, additionalProperties: true}
+  /plants/{plant_id}:
+    get:
+      operationId: getPlant
+      summary: Read one plant by its permanent ID.
+      parameters:
+        - $ref: "#/components/parameters/PlantId"
+      responses:
+        "200":
+          description: Current plant identity and cover.
+          content:
+            application/json:
+              schema: {type: object, additionalProperties: true}
+  /plants/{plant_id}/photos:
+    get:
+      operationId: listPlantPhotos
+      summary: List existing photos so the user can choose a cover.
+      parameters:
+        - $ref: "#/components/parameters/PlantId"
+      responses:
+        "200":
+          description: Photos linked to this plant, newest first.
+          content:
+            application/json:
+              schema: {type: object, additionalProperties: true}
+    post:
+      operationId: addPhotos
+      summary: Add up to ten conversation images to an existing plant.
+      description: >-
+        Never set confirmed=true until the user has explicitly approved the exact
+        Plant ID, file count, date, type, comment, and cover choice. The API never
+        changes the Plant ID. openaiFileIdRefs must contain the conversation images.
+      parameters:
+        - $ref: "#/components/parameters/PlantId"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              allOf:
+                - $ref: "#/components/schemas/ConfirmedMutation"
+                - type: object
+                  required: [openaiFileIdRefs]
+                  properties:
+                    openaiFileIdRefs:
+                      type: array
+                      minItems: 1
+                      maxItems: 10
+                      items: {type: string}
+                      description: >-
+                        One to ten images uploaded by the user in this conversation.
+                        At runtime OpenAI supplies file reference objects with name,
+                        id, mime_type, and a five-minute download_link.
+                    date:
+                      type: [string, "null"]
+                      format: date
+                      description: Exact photo date. Leave null rather than inventing a date.
+                    type:
+                      $ref: "#/components/schemas/PhotoType"
+                    comment:
+                      type: [string, "null"]
+                    cover_file_id:
+                      type: [string, "null"]
+                      description: OpenAI file ID of the attached image to make the cover.
+      responses:
+        "200":
+          description: Preview, dry-run, or completed result.
+          content:
+            application/json:
+              schema: {type: object, additionalProperties: true}
+  /plants:
+    post:
+      operationId: createPlant
+      summary: Create one new physical plant specimen and optionally add photos.
+      description: >-
+        Never supply a Plant ID. The server assigns max(existing Plant ID)+1 and
+        never reuses an old ID. Never set confirmed=true before showing the user
+        the proposed identity, date, file count, and acquisition event. On the
+        confirmed call, copy proposed_plant_id into expected_plant_id; this makes
+        retries fail safely instead of creating a duplicate specimen.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              allOf:
+                - $ref: "#/components/schemas/ConfirmedMutation"
+                - type: object
+                  required: [name]
+                  properties:
+                    expected_plant_id:
+                      type: [integer, "null"]
+                      minimum: 1
+                      description: >-
+                        Omit for the preview call. For confirmed=true, use the
+                        exact proposed_plant_id returned by the preview.
+                    name: {type: string, minLength: 1}
+                    latin_name: {type: [string, "null"]}
+                    cultivar: {type: [string, "null"]}
+                    group: {type: [string, "null"]}
+                    status: {type: string, default: Наблюдение}
+                    notes: {type: [string, "null"]}
+                    date_added:
+                      type: [string, "null"]
+                      format: date
+                    openaiFileIdRefs:
+                      type: array
+                      maxItems: 10
+                      items: {type: string}
+                      description: >-
+                        Optional conversation images. At runtime OpenAI supplies
+                        objects with name, id, mime_type, and download_link.
+                    photo_type:
+                      $ref: "#/components/schemas/PhotoType"
+                    photo_comment: {type: [string, "null"]}
+                    cover_file_id:
+                      type: [string, "null"]
+                      description: OpenAI file ID of the attached image to make the cover.
+                    acquisition_event:
+                      oneOf:
+                        - $ref: "#/components/schemas/EventInput"
+                        - type: "null"
+      responses:
+        "200":
+          description: Preview, dry-run, or completed result with the assigned Plant ID.
+          content:
+            application/json:
+              schema: {type: object, additionalProperties: true}
+  /plants/{plant_id}/identity:
+    patch:
+      operationId: updatePlantIdentity
+      summary: Correct a plant name, Latin name, or cultivar without changing Plant ID.
+      description: >-
+        Fetch the plant first. Show an exact before/after diff and obtain explicit
+        confirmation. Pass the fetched current name as expected_current_name to
+        prevent overwriting a newer edit.
+      parameters:
+        - $ref: "#/components/parameters/PlantId"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              allOf:
+                - $ref: "#/components/schemas/ConfirmedMutation"
+                - type: object
+                  required: [expected_current_name]
+                  properties:
+                    expected_current_name: {type: string}
+                    name: {type: [string, "null"]}
+                    latin_name: {type: [string, "null"]}
+                    cultivar: {type: [string, "null"]}
+      responses:
+        "200":
+          description: Preview, dry-run, no-change, or completed result.
+          content:
+            application/json:
+              schema: {type: object, additionalProperties: true}
+  /plants/{plant_id}/cover:
+    put:
+      operationId: setPlantCover
+      summary: Set one already uploaded photo as the plant card cover.
+      description: >-
+        Call listPlantPhotos first, show the selected image to the user, and ask
+        for confirmation. A group photo requires a second explicit confirmation.
+      parameters:
+        - $ref: "#/components/parameters/PlantId"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              allOf:
+                - $ref: "#/components/schemas/ConfirmedMutation"
+                - type: object
+                  properties:
+                    photo_record_id: {type: [string, "null"]}
+                    web_key: {type: [string, "null"]}
+                    allow_group_photo: {type: boolean, default: false}
+      responses:
+        "200":
+          description: Preview, dry-run, or completed result.
+          content:
+            application/json:
+              schema: {type: object, additionalProperties: true}
+  /plants/{plant_id}/cover/automatic:
+    post:
+      operationId: clearPlantCover
+      summary: Clear a manual cover and restore automatic cover selection.
+      parameters:
+        - $ref: "#/components/parameters/PlantId"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {$ref: "#/components/schemas/ConfirmedMutation"}
+      responses:
+        "200":
+          description: Preview, dry-run, or completed result.
+          content:
+            application/json:
+              schema: {type: object, additionalProperties: true}
+  /plants/{plant_id}/events:
+    post:
+      operationId: addPlantEvent
+      summary: Add an observation or care event to an existing plant.
+      description: Never invent an exact date. Use period when only an approximate date is known.
+      parameters:
+        - $ref: "#/components/parameters/PlantId"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              allOf:
+                - $ref: "#/components/schemas/ConfirmedMutation"
+                - $ref: "#/components/schemas/EventInput"
+      responses:
+        "200":
+          description: Preview, dry-run, or completed result.
+          content:
+            application/json:
+              schema: {type: object, additionalProperties: true}
+components:
+  securitySchemes:
+    PlantApiKey:
+      type: apiKey
+      in: header
+      name: X-Plant-API-Key
+  parameters:
+    PlantId:
+      name: plant_id
+      in: path
+      required: true
+      description: Permanent positive Plant ID. Never renumber or reuse it.
+      schema: {type: integer, minimum: 1}
+  schemas:
+    ConfirmedMutation:
+      type: object
+      required: [confirmed]
+      properties:
+        confirmed:
+          type: boolean
+          default: false
+          description: True only after explicit user confirmation of the exact mutation.
+    PhotoType:
+      type: string
+      enum:
+        - Основное
+        - Состояние
+        - Корни
+        - Цветение
+        - Историческое
+        - Референс продавца
+      default: Состояние
+    EventInput:
+      type: object
+      required: [type, date_precision]
+      properties:
+        type:
+          type: string
+          enum:
+            - Наблюдение
+            - Пересадка
+            - Обрезка
+            - Цветение
+            - Полив
+            - Обработка
+            - Размножение
+            - Покупка/получение
+            - Продажа/передача
+            - Другое
+        title: {type: [string, "null"]}
+        description: {type: [string, "null"]}
+        date:
+          type: [string, "null"]
+          format: date
+        date_precision:
+          type: string
+          enum: [Точная, Приблизительная, Только месяц/год, Неизвестна]
+        period:
+          type: [string, "null"]
