@@ -168,7 +168,19 @@ class PlantDiaryService:
 
     def get_plant(self, plant_id: int) -> dict[str, Any]:
         plant = self.repository.plant_by_id(plant_id)
-        return self._plant_json(plant)
+        result = self._plant_json(plant)
+        if result["main_photo_url"] is None:
+            photos = [
+                photo
+                for photo in self.repository.photos()
+                if plant_id in photo.plant_ids and (photo.url or photo.web_key)
+            ]
+            if photos:
+                cover = max(photos, key=self._automatic_cover_score)
+                result["main_photo_url"] = cover.url or public_image_url(
+                    self.settings.public_image_root, cover.web_key
+                )
+        return result
 
     def list_plant_photos(self, plant_id: int) -> dict[str, Any]:
         self.repository.plant_by_id(plant_id)
@@ -689,3 +701,13 @@ class PlantDiaryService:
             "date_added": plant.date_added,
             "main_photo_url": plant.main_photo_url,
         }
+
+    @staticmethod
+    def _automatic_cover_score(photo: PhotoRecord) -> tuple[int, str, str]:
+        if photo.photo_type == "Основное":
+            priority = 3
+        elif photo.photo_type == "Референс продавца":
+            priority = 0
+        else:
+            priority = 2
+        return priority, photo.date or "", photo.web_key

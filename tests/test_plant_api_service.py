@@ -148,6 +148,31 @@ class PlantDiaryServiceTests(unittest.TestCase):
         self.assertEqual(service.search_plants("#128")["plants"][0]["plant_id"], 128)
         self.assertEqual(service.search_plants("суккулент")["plants"][0]["plant_id"], 128)
 
+    def test_get_plant_uses_same_automatic_cover_rule_as_site(self):
+        service, repository, _ = self.make_service()
+        repository._photos.append(
+            PhotoRecord(
+                record_id="recMainPhoto",
+                filename="main.jpg",
+                source_file_id="file-main",
+                plant_ids=(128,),
+                plant_record_ids=("recPlant128",),
+                date="2026-09-01",
+                photo_type="Основное",
+                comment="",
+                web_key="web/2026-09-01/main.webp",
+                url="",
+                upload_status="Загружено",
+            )
+        )
+
+        result = service.get_plant(128)
+
+        self.assertEqual(
+            result["main_photo_url"],
+            "https://storage.example/web/2026-09-01/main.webp",
+        )
+
     def test_rename_requires_explicit_confirmation(self):
         service, repository, _ = self.make_service()
         result = service.update_identity(
